@@ -1,0 +1,66 @@
+/* Container for login/logout sections */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@400;700&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+}
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;     /* Center vertically */
+    background-color: #f9f9f9; /* Light background for contrast */
+  }
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Stack the content vertically */
+    width: 100%; /* Full width */
+    max-width: 400px; /* Limit the wrapper width */
+    /* padding: 20px; */
+    /* background-color: #fff; White background for content */
+    border-radius: 10px; /* Rounded corners */
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  */
+    text-align: center; /* Center text inside */
+  }
+.ctn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ddd; /* Light border for the container */
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff; /* Keep the background white for a clean look */
+    border-radius: 10px; /* Slightly rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    max-width: 400px; /* Limit the container width */
+    text-align: center; /* Center-align text inside */
+  }
+  
+  /* Style for h4 heading inside the container */
+  .ctn h4 {
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    color: #333; /* Dark text color */
+  }
+  
+  /* Button styling */
+  .btn {
+    background-color: #7153a8; /* Light purple background */
+    color: #fff; /* White text */
+    border: none; /* Remove default borders */
+    padding: 10px 20px; /* Padding for size */
+    font-size: 16px; /* Font size for readability */
+    border-radius: 5px; /* Rounded button corners */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+  }
+  
+  /* Button hover effect */
+  .btn:hover {
+    background-color: #704eb1; /* Darker shade of purple when hovering */
+  }
+  

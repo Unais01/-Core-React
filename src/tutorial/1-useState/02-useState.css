@@ -1,0 +1,53 @@
+/* Wrapper to center the content */
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    color: #e0e0e0; /* Light text for dark mode */
+    background-color: #121212; /* Dark background */
+  }
+  
+  /* Style for the list items */
+  .list-item {
+    list-style-type: none; /* Remove bullet points */
+    font-size: 1.2rem;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #333; /* Dark background for list item */
+    color: #e0e0e0;
+    border-radius: 5px;
+    width: 300px;
+    text-align: center;
+    border: 1px solid #444;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Hover effect for the list item */
+  .list-item:hover {
+    background-color: #555; /* Lighter color on hover */
+  }
+  
+  /* Style for the buttons */
+  .btn {
+    background-color: #d32f2f; /* Red color for remove button */
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    margin-top: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Button hover effect */
+  .btn:hover {
+    background-color: #f44336; /* Lighter red on hover */
+  }
+  
+  /* Ensure button width matches list item */
+  .btn {
+    width: 100px;
+  }
+  

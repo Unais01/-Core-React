@@ -1,0 +1,44 @@
+/* Centering the counter on the page */
+.counter-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f7f7f7;
+  }
+  
+  .counter-value {
+    font-size: 4rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .buttons {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .btn {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn.decrease {
+    background-color: #f44336;
+  }
+  
+  .btn.increase {
+    background-color: #4caf50;
+  }
+  
+  .btn:hover {
+    opacity: 0.9;
+  }
+  

@@ -1,0 +1,72 @@
+/* Styling for the container div */
+body{
+    background-color: #333;
+    color: #fff;
+}
+div {
+    padding: 20px;
+    /* background-color: #f0f0f0; */
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 0 auto; /* Centers the div horizontally */
+    /* box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); */
+}
+
+/* Styling for the ul and li */
+ul {
+    list-style: none; /* Removes bullet points */
+    padding: 0;
+    margin: 0;
+    display: flex; /* Displays list items in a row */
+    justify-content: space-around; /* Spreads list items evenly */
+    background-color: #5430a7; /* Blue background for the list */
+    border-radius: 5px;
+}
+
+li {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect for the list items */
+li:hover {
+    background-color: #0056b3;
+}
+
+/* Styling for UserContainer */
+.UserContainer {
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Styling for the h4 */
+ h4 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    /* color: #333; */
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+/* Styling for the button */
+ button {
+    display: block;
+    width: fit-content;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: white;
+    background-color: #6039bb;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 auto; /* Centers the button */
+    transition: background-color 0.3s ease;
+}

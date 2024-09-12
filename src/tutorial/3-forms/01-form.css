@@ -1,0 +1,74 @@
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  label {
+    font-size: 16px;
+    margin-bottom: 8px;
+    color: #333;
+  }
+  
+  input[type="text"] {
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 12px;
+    transition: border-color 0.3s ease;
+  }
+  input[type="email"] {
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 12px;
+    transition: border-color 0.3s ease;
+  }
+  
+  input[type="text"]:focus {
+    border-color: #007BFF;
+    outline: none;
+  }
+  input[type="email"]:focus {
+    border-color: #007BFF;
+    outline: none;
+  }
+  .btn{
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(118, 93, 187);
+    color: #f9f9f9;
+    border: none;
+    cursor: pointer;
+    
+  }
+  .list {
+    text-align: center;
+   
+    background-color: #f0f8ff; /* Light azure background */
+    color: #333; /* Dark gray text for contrast */
+    padding: 5px;
+    width: 300px;
+    margin: 0px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    transition: transform 0.2s ease, background-color 0.3s ease;
+    border-bottom: 1px solid gainsboro;
+  }
+  
+  /* Add hover effect for interaction */
+  .list:hover {
+    background-color: #ffa07a; /* Light salmon on hover */
+    transform: scale(1.05); /* Slight scaling on hover */
+  }
+  

@@ -1,0 +1,42 @@
+/* Loading bar container to center the bar */
+.loading-bar-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px; /* Adjust the height of the container */
+  }
+  
+  /* Loading bar style */
+  .loading-bar {
+    width: 70%; /* Width of the loading bar */
+    height: 10px; /* Height of the loading bar */
+    background-color: #ddd; /* Background color of the bar */
+    border-radius: 5px; /* Rounded corners for the bar */
+    overflow: hidden; /* Ensure the fill animation stays inside the bar */
+    position: relative;
+  }
+  
+  .loading-bar::before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 0;
+    background-color: #007bff; /* Fill color */
+    animation: loading 3s infinite; /* Animation loop */
+    border-radius: 5px;
+  }
+  
+  /* Animation for loading bar fill */
+  @keyframes loading {
+    0% {
+      width: 0;
+    }
+    50% {
+      width: 50%;
+    }
+    100% {
+      width: 100%;
+    }
+  }
+  
