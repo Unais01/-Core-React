@@ -1,7 +1,5 @@
-import React from 'react'
-import UserContainer from './UserContainer'
-
-
+import React from 'react';
+import UserContainer from './UserContainer';
 
 function NavLinks() {
     return (
@@ -13,7 +11,7 @@ function NavLinks() {
             </ul>
             <UserContainer />
         </div>
-    )
+    );
 }
 
-export default NavLinks
+export default NavLinks;

@@ -1,18 +1,18 @@
-import React from 'react'
+import React from 'react';
 
 function UserContainer(props) {
     return (
         <div>
-            {props.name ?
+            {props.name ? (
                 <div>
                     <h4>Hello There, {props.name}</h4>
                     <button onClick={props.logout}>Logout</button>
-                </div> :
+                </div>
+            ) : (
                 <h4>login please</h4>
-            }
+            )}
         </div>
-
-    )
+    );
 }
 
-export default UserContainer
+export default UserContainer;

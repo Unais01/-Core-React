@@ -1,7 +1,6 @@
-import './04-useState.css'
-import { useState } from "react";
+import './04-useState.css';
+import { useState } from 'react';
 const UseStateGotcha = () => {
-
     const [count, setCount] = useState(0);
 
     // Function to increment the count
@@ -12,8 +11,6 @@ const UseStateGotcha = () => {
                 return newState;
             });
         }, 1000);
-
-
     };
 
     // Function to decrement the count
@@ -22,13 +19,13 @@ const UseStateGotcha = () => {
             const newState = currentState - 1;
             return newState;
         });
-    }
-    const reset=()=>{
-        setCount((currentState)=>{
-            const newState=currentState-currentState;
+    };
+    const reset = () => {
+        setCount((currentState) => {
+            const newState = currentState - currentState;
             return newState;
-        })
-    }
+        });
+    };
 
     return (
         <>
@@ -48,5 +45,5 @@ const UseStateGotcha = () => {
             </div>
         </>
     );
-}
+};
 export default UseStateGotcha;

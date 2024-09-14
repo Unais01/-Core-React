@@ -1,12 +1,11 @@
+import {Todo} from './mini-project/';
 
-import Starter from './tutorial/7-useReducer/01-useCase'
-// import './App.css'
 function App() {
-  return (
-    <>
-      <Starter />
-    </>
-  )
+    return (
+        <>
+            <Todo />
+        </>
+    );
 }
 
 export default App;

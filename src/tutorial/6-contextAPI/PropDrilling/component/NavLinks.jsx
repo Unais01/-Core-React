@@ -1,7 +1,5 @@
-import React from 'react'
-import UserContainer from './UserContainer'
-
-
+import React from 'react';
+import UserContainer from './UserContainer';
 
 function NavLinks(props) {
     return (
@@ -11,9 +9,9 @@ function NavLinks(props) {
                 <li>About</li>
                 <li>FAQ'S</li>
             </ul>
-            <UserContainer name={props.name} logout={props.logout}/>
+            <UserContainer name={props.name} logout={props.logout} />
         </div>
-    )
+    );
 }
 
-export default NavLinks
+export default NavLinks;
